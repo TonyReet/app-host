@@ -44,6 +44,15 @@ ps:数据库和上传的文件会保存在 ./shared 文件夹中
 6. rails s 运行测试环境
 7. 关于部署到生成环境的话请参照一下 rails puma 部署等教程，需要修改一下 config/deply.rb 的部署地址
 8. 尝试访问 http://localhost:3000
+
+
+如果执行'rake secret'遇到:Your Ruby version is x.x.x, but your Gemfile specified y.y.y
+
+安装rvm:'brew install rvm'
+
+rvm install y.y.y
+
+rvm use y.y.y
 ```
 
 ## 关于 https
